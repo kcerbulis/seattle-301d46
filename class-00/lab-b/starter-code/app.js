@@ -255,8 +255,8 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//  Undefined
+//  The constructor function object
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//  Undefined
+//  The window object (The entire page)
 // 3. Explain why "this" is different when an arrow function is used.
 //  When using a arrow function, you can't use contextual this for a constructor function.
